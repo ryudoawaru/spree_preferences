@@ -10,8 +10,7 @@ Gem::Specification.new do |s|
   s.homepage    = ""
   s.summary     = %q{Spree Preferences support general application configuration and preferences per model instance.}
   s.description = %q{Spree Preferences support general application configuration and preferences per model instance.}
-	
-	s.add_dependency 'rails', '>= 3.1.1', '<= 3.2.1'
+  s.add_dependency 'rails', '>= 3.1.1'
   s.rubyforge_project = "spree_preferences"
 
   s.require_paths = ["lib", 'lib/preferences']
